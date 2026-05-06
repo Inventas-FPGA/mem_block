@@ -48,7 +48,7 @@ def add_uvvm_vvc(hr, uvvm_path: Path) -> None:
     )
 
 
-def extract_tb_variant_from_argv() -> str | None:
+def extract_tb_variant_from_argv():
     """
     Look for a custom --tb <variant> argument and remove it from sys.argv,
     so HDLRegression only sees its own arguments.
